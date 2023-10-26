@@ -88,11 +88,12 @@ nav .header_right .algos button {
 }
 
 nav .header_right .algos button:hover {
+  height: fit-content;
+  width: fit-content;
   background-color: #af00ff;
   cursor: pointer;
-  box-sizing: 50%;
+   padding: 0.3rem;
   border-radius: 1rem;
- 
 }
 
 nav .header_right .algos .butt_locked {
